@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Video Hub",
+  title: "SamSora",
   description: "Trang web này có thể chia sẻ, đăng tải video dễ dàng",
   icons: {
     icon: "/favicon.ico",
