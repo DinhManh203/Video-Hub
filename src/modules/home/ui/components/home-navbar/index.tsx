@@ -10,13 +10,20 @@ const HomeNavbar = () => {
                 <div className="flex items-center flex-shrink-0">
                     <SidebarTrigger />
                     <Link href="/">
-                        <div className="p-4 flex items-center gap-1">
-                            <Image src={"/images/logo.png"} alt="Logo" width={32} height={32} />
+                        <div className="flex items-center gap-2 p-2">
+                            <Image
+                                src="/images/logo.png"
+                                alt="Logo"
+                                width={32}
+                                height={32}
+                                className="object-contain"
+                            />
                             <p className="text-xl font-semibold tracking-tight bg-gradient-to-r from-red-400 via-orange-400 to-yellow-300 bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent">
                                 SamSora
                             </p>
                         </div>
                     </Link>
+
                 </div>
             </div>
         </div>
